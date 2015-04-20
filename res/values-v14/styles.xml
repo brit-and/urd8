@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarTabStyle</item>
+    </style>
+
+    <style name="MyActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#dce3e3</item>
+    </style>
+
+</resources>

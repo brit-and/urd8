@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRDVActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#0EBFE9"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/tvSelectedRDVLibelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvSelectedRDVDateJours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSelectedRDVHeures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tvSelectedRDVDetailsDur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Détails" 
+            android:textSize="16dp"
+            android:textColor="#575757"
+            android:textAllCaps="true"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/tvSelectedRDVDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvSelectedRDVLieuDur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Lieu"
+            android:textAllCaps="true"
+            android:textColor="#575757"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvSelectedRDVLieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

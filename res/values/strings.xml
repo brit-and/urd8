@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">URD8</string>
+    <string name="title_section3">Courses</string>
+    <string name="title_section2">RDV</string>
+    <string name="title_section1">Repas</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>

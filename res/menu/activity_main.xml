@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/content_new"
+        android:showAsAction="ifRoom"
+        android:title="Ajouter">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item
+                android:id="@+id/add_rdv"
+                android:title="Créer un RDV"/>
+            <item
+                android:id="@+id/add_repas"
+                android:title="Créer un repas"/>
+            <item
+                android:id="@+id/add_courses"
+                android:title="Créer une course"/>
+        </menu>
+    </item>
+
+</menu>
