@@ -5,4 +5,4 @@ Le login/mdp pour accéder à l'application est "user" / "user".
 
 #### Captures d'écran
 
-![alt tag](http://www.noelshack.com/2015-17-1429558422-capture-d-ecran-2015-04-20-a-21-31-28.png)
+![qq](http://www.noelshack.com/2015-17-1429558422-capture-d-ecran-2015-04-20-a-21-31-28.png)
