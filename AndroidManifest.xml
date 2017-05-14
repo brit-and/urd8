@@ -26,7 +26,7 @@
         <activity android:name=".SelectedRDVActivity" />
         <activity android:name=".SelectedCoursesActivity" />
         <activity android:name=".SelectedRepasActivity" />
-        <activity android:name=".MainActivity" android:label="URD8" />
+        <activity android:name=".MainActivity" android:label="URD82" />
     </application>
 
 </manifest>
